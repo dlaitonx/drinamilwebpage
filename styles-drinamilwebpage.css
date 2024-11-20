@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    font-size: 1.25em;
+}
+button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.5);
+    color: white;
+    background-color: rgb(6, 138, 209);
+
+}
+button:hover {
+    background-color: rgb(2, 79, 121);
+}
+.container {
+    max-width: 1400px;
+    margin:auto;
+}
+
+.color-acento-toyota {
+    color: rgb(204, 26, 26);
+}
+
+.color-acento {
+    color: rgb(6, 138, 209);
+}
+
+
+header {
+    background-color: rgb(245, 245, 245);
+
+
+}
+
+
+header .logo{
+    margin:0;
+    height: 110px;
+    width: 240px;
+    padding: 10px 10px;
+
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover {
+    color: rgb(6, 138, 209);
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/toyota-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1 {
+    color: white;
+}
+
+
+#somos-drinamil .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-productos {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-productos .container{
+    padding: 150px 0px;
+}
+
+#nuestros-productos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-productos p{
+    display: none;
+}
+
+#nuestros-productos .carta {
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 20px;
+    border-radius: 15px;;
+}
+
+.carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/partes-de-motor.jpg");
+
+}
+
+.carta:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/tren-delantero.jpg");
+
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/sistema-inyeccion.jpg");
+
+}
+
+#nuestras-marcas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestras-marcas li {
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+#catalogos {
+    background-color: rgb(245, 245, 245);
+    color: white;
+    text-align: center;
+}
+
+#catalogos .container{
+    padding: 150px 0px;
+}
+
+#catalogos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+    color: black;
+}
+
+#catalogos p{
+    display: none;
+}
+
+#catalogos .carta-catalogo {
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 20px;
+    border-radius: 15px;;
+}
+
+.carta-catalogo:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/555-catalogo.png");
+
+}
+
+.carta-catalogo:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/aisin-catalogo.jpg");
+
+}
+
+.carta-catalogo:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/kyb-catalog.png");
+
+}
+#contactanos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/somos-drinamil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#contactanos h2 {
+    color: white;
+    font-size:9vw;
+}
+#contactanos button {
+    font-size: 1em;
+    margin-top: 10px;
+}
+footer {
+    background-color: rgb(230, 230, 230);
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100)
+}
+
+footer .container {
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+@media (min-width: 720px) {
+    header {
+        position: fixed;
+        width: 100%
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;;
+    }
+
+    #hero h1 {
+        font-size: 5em;
+    }
+
+
+    #somos-drinamil .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-drinamil .texto {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    
+
+    #somos-drinamil .h2 {
+        margin-top: 0px;
+    }
+
+
+    #somos-drinamil .img-container {
+        background-image: url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/repuestos-toyota2.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #nuestros-productos .productos-cartas{
+      display: flex;
+      justify-content: center;
+    }
+
+    #nuestros-productos p {
+        display: block;
+        margin: 30px;
+    }
+    #nuestros-productos .h2 {
+        margin-top: 0;
+        font-size: 4em;
+    }    
+
+    #nuestros-productos .carta {
+        padding: 50px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    #nuestras-marcas {
+        background-image: url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/nuestras-marcas.jpg");
+        background-repeat: no-repeat;
+        background-size: 400px 400px;
+        background-position: calc(100vw - 430px) 400px;
+
+
+        
+    }
+
+    #nuestras-marcas .container{
+        text-align: initial;
+        
+    }
+
+    #nuestras-marcas ul{
+        margin-left: 100px;
+        
+    }
+
+    #nuestras-marcas h2 {
+        margin-left: 150px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #contactanos h2 {
+        font-size: 4em;
+    }
+
+    #contactanos button {
+        font-size: 1em;
+    }
+
+    footer .container {
+        justify-content: flex-end;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #nuestras-marcas {
+       
+        background-position: calc(100vw - 700px) 350px;
+    }
+    #nuestras-marcas ul{
+        margin-left: 200px;
+        
+    }
+}
