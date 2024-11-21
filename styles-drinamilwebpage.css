@@ -54,7 +54,7 @@ button:hover {
 }
 
 .color-acento-toyota {
-    color: rgb(204, 26, 26);
+    color: rgb(238, 27, 27);
 }
 
 .color-acento {
@@ -114,7 +114,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/toyota-logo.jpg");
+    ,url("https://raw.githubusercontent.com/dlaitonx/drinamilwebpage/refs/heads/main/toyota-logo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -124,9 +124,13 @@ header a:hover {
     color: white;
 }
 
+#somos-drinamil h2 {
+    text-align: center;
+    
+}
 
 #somos-drinamil .container {
-    text-align: center;
+    text-align: justify;
     padding: 200px 12px;
 }
 
@@ -163,7 +167,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/partes-de-motor.jpg");
+    ,url("https://raw.githubusercontent.com/dlaitonx/drinamilwebpage/refs/heads/main/partes-de-motor.jpg");
 
 }
 
@@ -173,7 +177,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/tren-delantero.jpg");
+    ,url("https://raw.githubusercontent.com/dlaitonx/drinamilwebpage/refs/heads/main/tren-delantero.jpg");
 
 }
 
@@ -183,7 +187,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/sistema-inyeccion.jpg");
+    ,url("https://github.com/dlaitonx/drinamilwebpage/blob/main/sistema-inyeccion.jpg?raw=true");
 
 }
 
@@ -236,7 +240,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/555-catalogo.png");
+    ,url("https://raw.githubusercontent.com/dlaitonx/drinamilwebpage/refs/heads/main/555-catalogo.png");
 
 }
 
@@ -246,7 +250,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/aisin-catalogo.jpg");
+    ,url("https://raw.githubusercontent.com/dlaitonx/drinamilwebpage/refs/heads/main/aisin-catalogo.jpg");
 
 }
 
@@ -256,7 +260,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/kyb-catalog.png");
+    ,url("https://raw.githubusercontent.com/dlaitonx/drinamilwebpage/refs/heads/main/kyb-catalog.png");
 
 }
 #contactanos {
@@ -272,7 +276,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/somos-drinamil.jpg");
+    ,url("https://github.com/dlaitonx/drinamilwebpage/blob/main/somos-drinamil.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -332,7 +336,7 @@ footer .container {
     #somos-drinamil .texto {
         width: 50%;
         max-width: 600px;
-        text-align: initial;
+        text-align: justify;
         padding-left: 30px;
         display: flex;
         flex-direction: column;
@@ -348,7 +352,7 @@ footer .container {
 
 
     #somos-drinamil .img-container {
-        background-image: url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/repuestos-toyota2.jpg");
+        background-image: url("https://raw.githubusercontent.com/dlaitonx/drinamilwebpage/refs/heads/main/repuestos-toyota2.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -363,6 +367,8 @@ footer .container {
     #nuestros-productos p {
         display: block;
         margin: 30px;
+
+        
     }
     #nuestros-productos .h2 {
         margin-top: 0;
@@ -375,7 +381,7 @@ footer .container {
     }
 
     #nuestras-marcas {
-        background-image: url("C:/Users/David/Documents/PROGRAMMING/2024-11 DRINAMIL web page/media/nuestras-marcas.jpg");
+        background-image: url("https://github.com/dlaitonx/drinamilwebpage/blob/main/nuestras-marcas.jpg?raw=true");
         background-repeat: no-repeat;
         background-size: 400px 400px;
         background-position: calc(100vw - 430px) 400px;
